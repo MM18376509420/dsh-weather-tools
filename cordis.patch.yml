@@ -5,14 +5,14 @@
     - id: transcribe-tool
       name: dsh-weather-tools/transcribe-tool
       config:
-        endpoint: !!js process.env.ASR_ENDPOINT
-        model: !!js process.env.ASR_MODEL
-        defaultLanguage: !!js process.env.ASR_LANGUAGE
+        endpoint: http://192.168.9.38:6006/v1/audio/transcriptions
+        model: ''
+        defaultLanguage: ''
 
     - id: video-labeler
       name: dsh-weather-tools/video-labeler
       config:
-        baseURL: !!js process.env.OPENAI_BASE_URL
-        apiKey: !!js process.env.OPENAI_API_KEY
+        baseURL: http://192.168.9.20:4000/v1
+        apiKey: sk-0ce29bb4cf097b1ecef93b5f00416a0d
         model: MiniCPM-V-4_5
         promptId: ly-at-video-tag-prompt
