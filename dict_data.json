@@ -1,0 +1,960 @@
+{
+  "human_race": [
+    {
+      "code": "human_race_asian",
+      "label": "亚洲人"
+    },
+    {
+      "code": "human_race_europeans",
+      "label": "欧洲人"
+    },
+    {
+      "code": "human_race_europeans_americans",
+      "label": "欧美人"
+    },
+    {
+      "code": "human_race_african",
+      "label": "非洲人"
+    },
+    {
+      "code": "human_race_mixed_blood",
+      "label": "混血"
+    },
+    {
+      "code": "human_race_nothing",
+      "label": "无"
+    }
+  ],
+  "human_sex": [
+    {
+      "code": "human_sex_man",
+      "label": "男"
+    },
+    {
+      "code": "human_sex_woman",
+      "label": "女"
+    },
+    {
+      "code": "human_sex_nothing",
+      "label": "无"
+    }
+  ],
+  "human_age_range": [
+    {
+      "code": "human_age_range_young_children",
+      "label": "婴幼儿"
+    },
+    {
+      "code": "human_age_range_children",
+      "label": "儿童"
+    },
+    {
+      "code": "human_age_range_teenager",
+      "label": "青少年"
+    },
+    {
+      "code": "human_age_range_youth",
+      "label": "青年"
+    },
+    {
+      "code": "human_age_range_middle_aged_adults",
+      "label": "中壮年"
+    },
+    {
+      "code": "human_age_range_old_age",
+      "label": "老年"
+    },
+    {
+      "code": "human_age_range_nothing",
+      "label": "无"
+    }
+  ],
+  "human_facialfeatures": [
+    {
+      "code": "human_facialfeatures_round_face",
+      "label": "圆脸"
+    },
+    {
+      "code": "human_facialfeatures_square_face",
+      "label": "方脸"
+    },
+    {
+      "code": "human_facialfeatures_long_face",
+      "label": "长脸"
+    },
+    {
+      "code": "human_facialfeatures_goose_egg_face",
+      "label": "鹅蛋脸"
+    },
+    {
+      "code": "human_facialfeatures_oval_face",
+      "label": "瓜子脸"
+    },
+    {
+      "code": "human_facialfeatures_heart_shaped_face",
+      "label": "心形脸"
+    },
+    {
+      "code": "human_facialfeatures_diamond_shaped_face",
+      "label": "菱形脸"
+    },
+    {
+      "code": "human_facialfeatures_big_eyes",
+      "label": "大眼睛"
+    },
+    {
+      "code": "human_facialfeatures_monolid",
+      "label": "单眼皮"
+    },
+    {
+      "code": "human_facialfeatures_double_eyelid",
+      "label": "双眼皮"
+    },
+    {
+      "code": "human_facialfeatures_aquiline_nose",
+      "label": "鹰钩鼻"
+    },
+    {
+      "code": "human_facialfeatures_flat_nose",
+      "label": "蒜头鼻"
+    },
+    {
+      "code": "human_facialfeatures_long_hair",
+      "label": "长发"
+    },
+    {
+      "code": "human_facialfeatures_short_hair",
+      "label": "短发"
+    },
+    {
+      "code": "human_facialfeatures_curly_hair",
+      "label": "卷发"
+    },
+    {
+      "code": "human_facialfeatures_straight_hair",
+      "label": "直发"
+    },
+    {
+      "code": "human_facialfeatures_ponytail",
+      "label": "马尾"
+    },
+    {
+      "code": "human_facialfeatures_bun",
+      "label": "丸子头"
+    },
+    {
+      "code": "human_facialfeatures_buzz_cut",
+      "label": "寸头"
+    },
+    {
+      "code": "human_facialfeatures_bald_head",
+      "label": "光头"
+    },
+    {
+      "code": "human_facialfeatures_nothing",
+      "label": "无"
+    }
+  ],
+  "human_facialexpression": [
+    {
+      "code": "human_facialexpression_happy",
+      "label": "开心"
+    },
+    {
+      "code": "human_facialexpression_anger",
+      "label": "愤怒"
+    },
+    {
+      "code": "human_facialexpression_in_high_spirits",
+      "label": "精神焕发"
+    },
+    {
+      "code": "human_facialexpression_nothing",
+      "label": "无"
+    }
+  ],
+  "apparel": [
+    {
+      "code": "apparel_suit",
+      "label": "西装"
+    },
+    {
+      "code": "apparel_dress",
+      "label": "连衣裙"
+    },
+    {
+      "code": "apparel_T_shirt",
+      "label": "T恤"
+    },
+    {
+      "code": "apparel_shirt",
+      "label": "衬衫"
+    },
+    {
+      "code": "apparel_Polo_shirt",
+      "label": "POLO衫"
+    },
+    {
+      "code": "apparel_sweater",
+      "label": "毛衣"
+    },
+    {
+      "code": "apparel_hoodie",
+      "label": "卫衣"
+    },
+    {
+      "code": "apparel_jacket",
+      "label": "夹克"
+    },
+    {
+      "code": "apparel_coat",
+      "label": "外套"
+    },
+    {
+      "code": "apparel_trench_coat",
+      "label": "风衣"
+    },
+    {
+      "code": "apparel_overcoat",
+      "label": "大衣"
+    },
+    {
+      "code": "apparel_waistcoat",
+      "label": "背心"
+    },
+    {
+      "code": "apparel_vest",
+      "label": "马甲"
+    },
+    {
+      "code": "apparel_straps",
+      "label": "吊带"
+    },
+    {
+      "code": "apparel_jeans",
+      "label": "牛仔裤"
+    },
+    {
+      "code": "apparel_casual_pants",
+      "label": "休闲裤"
+    },
+    {
+      "code": "apparel_trousers",
+      "label": "西裤"
+    },
+    {
+      "code": "apparel_sweatpants",
+      "label": "运动裤"
+    },
+    {
+      "code": "apparel_overalls",
+      "label": "工装裤"
+    },
+    {
+      "code": "apparel_wide_leg_pants",
+      "label": "阔腿裤"
+    },
+    {
+      "code": "apparel_紧身裤",
+      "label": "紧身裤"
+    },
+    {
+      "code": "apparel_shorts",
+      "label": "短裤"
+    },
+    {
+      "code": "apparel_capri_pants",
+      "label": "七分裤"
+    },
+    {
+      "code": "apparel_cropped_pants",
+      "label": "九分裤"
+    },
+    {
+      "code": "apparel_skirt",
+      "label": "半身裙"
+    },
+    {
+      "code": "apparel_jumpsuit",
+      "label": "连体裤"
+    },
+    {
+      "code": "apparel_suspender_trousers",
+      "label": "背带裤"
+    },
+    {
+      "code": "apparel_workwear_jumpsuit",
+      "label": "工装连体服"
+    },
+    {
+      "code": "apparel_nothing",
+      "label": "无"
+    }
+  ],
+  "weather": [
+    {
+      "code": "weather_sunny",
+      "label": "晴天"
+    },
+    {
+      "code": "weather_rainy",
+      "label": "雨天"
+    },
+    {
+      "code": "weather_cloudy",
+      "label": "多云"
+    },
+    {
+      "code": "weather_thundershower",
+      "label": "雷阵雨"
+    },
+    {
+      "code": "weather_snowy",
+      "label": "雪天"
+    },
+    {
+      "code": "weather_foggy",
+      "label": "雾天"
+    },
+    {
+      "code": "weather_windy",
+      "label": "风天"
+    },
+    {
+      "code": "weather_sandstorm",
+      "label": "沙尘暴"
+    },
+    {
+      "code": "weather_hail",
+      "label": "冰雹"
+    },
+    {
+      "code": "weather_tornado",
+      "label": "龙卷风"
+    },
+    {
+      "code": "weather_rainbow",
+      "label": "彩虹"
+    },
+    {
+      "code": "weather_nothing",
+      "label": "无"
+    }
+  ],
+  "tone": [
+    {
+      "code": "tone_cold_color_scheme",
+      "label": "冷色系"
+    },
+    {
+      "code": "tone_warm_color_scheme",
+      "label": "暖色系"
+    }
+  ],
+  "lens": [
+    {
+      "code": "lens_close_up",
+      "label": "特写"
+    },
+    {
+      "code": "lens_vision",
+      "label": "远景"
+    },
+    {
+      "code": "lens_close_shot",
+      "label": "近景"
+    },
+    {
+      "code": "lens_panorama",
+      "label": "全景"
+    },
+    {
+      "code": "lens_medium_shot",
+      "label": "中景"
+    },
+    {
+      "code": "lens_big_close_up",
+      "label": "大特写"
+    }
+  ],
+  "marketing_intent": [
+    {
+      "code": "marketing_intent_product_promotion",
+      "label": "产品推广"
+    },
+    {
+      "code": "marketing_intent_brand_exposure",
+      "label": "品牌曝光"
+    },
+    {
+      "code": "marketing_intent_health_promotion",
+      "label": "健康宣传"
+    },
+    {
+      "code": "marketing_intent_cultural_promotion",
+      "label": "文化推广"
+    }
+  ],
+  "emotion_tone": [
+    {
+      "code": "emotion_tone_light_hearted_joyful",
+      "label": "轻松愉快"
+    },
+    {
+      "code": "emotion_tone_positive_uplifting",
+      "label": "积极向上"
+    },
+    {
+      "code": "emotion_tone_warm_care",
+      "label": "温馨关怀"
+    },
+    {
+      "code": "emotion_tone_professional_trustworthy",
+      "label": "专业可信"
+    },
+    {
+      "code": "emotion_tone_peaceful_peaceful",
+      "label": "宁静平和"
+    }
+  ],
+  "persona_style": [
+    {
+      "code": "persona_style_science_popularization_type",
+      "label": "科普型"
+    },
+    {
+      "code": "persona_style_life_expert",
+      "label": "生活达人"
+    },
+    {
+      "code": "persona_style_professional_health_consultant",
+      "label": "专业健康顾问"
+    },
+    {
+      "code": "persona_style_general_public",
+      "label": "普通大众"
+    },
+    {
+      "code": "persona_style_inheritors_ethnic_culture",
+      "label": "民族文化传承者"
+    }
+  ],
+  "selling_point_type": [
+    {
+      "code": "selling_point_type_health_improvement",
+      "label": "健康改善"
+    },
+    {
+      "code": "selling_point_type_price_advantage",
+      "label": "价格优势"
+    },
+    {
+      "code": "selling_point_type_product_quality",
+      "label": "产品品质"
+    },
+    {
+      "code": "selling_point_type_convenience_of_use",
+      "label": "使用便捷性"
+    },
+    {
+      "code": "selling_point_type_product_features_selling_points",
+      "label": "产品功能卖点"
+    }
+  ],
+  "video_style": [
+    {
+      "code": "video_style_china_chic_wind",
+      "label": "国潮风"
+    },
+    {
+      "code": "video_style_VLogStyle",
+      "label": "VLog风格"
+    },
+    {
+      "code": "video_style_science_popularization_education",
+      "label": "科普教育"
+    },
+    {
+      "code": "video_style_unboxing_review",
+      "label": "开箱评测"
+    },
+    {
+      "code": "video_style_documentary_style",
+      "label": "纪录片风格"
+    }
+  ],
+
+  "camera_movement": [
+    {
+     "code": "camera_movement_fixed_shot",
+     "label": "固定镜头"
+   },{
+     "code": "camera_movement_dolly_in",
+     "label": "推镜头"
+   },{
+     "code": "camera_movement_zoom_out",
+     "label": "拉镜头"
+   },{
+     "code": "camera_movement_shake_the_camera",
+     "label": "摇镜头"
+   },{
+     "code": "camera_movement_move_the_camera",
+     "label": "移镜头"
+   },{
+     "code": "camera_movement_follow_shot",
+     "label": "跟镜头"
+   },{
+     "code": "camera_movement_elevating_lens",
+     "label": "升降镜头"
+   },{
+     "code": "camera_movement_lift_and_shake",
+     "label": "手持晃动"
+   },{
+     "code": "camera_movement_aerial_shot",
+     "label": "航拍"
+   },{
+     "code": "camera_movement_around_shot",
+     "label": "环绕拍摄"
+   },{
+     "code": "camera_movement_quick_zoom_in_and_out",
+     "label": "快速推拉"
+   }
+  ],
+  "shooting_environment": [
+    {
+     "code": "shooting_environment_real_scene",
+     "label": "实景拍摄"
+   },{
+     "code": "shooting_environment_professional_studio",
+     "label": "专业影棚"
+   },{
+     "code": "shooting_environment_performing_studio",
+     "label": "演播室"
+   },{
+     "code": "shooting_environment_green_screen_blue_screen",
+     "label": "绿幕/蓝幕合成"
+   },{
+     "code": "shooting_environment_pure_background_board",
+     "label": "纯背景板"
+   },{
+     "code": "shooting_environment_animation",
+     "label": "动画"
+   },{
+     "code": "shooting_environment_cgi_generation",
+     "label": "CGI生成"
+   },{
+     "code": "shooting_environment_live_room",
+     "label": "直播间"
+   },{
+     "code": "shooting_environment_screen_recording",
+     "label": "屏幕录制"
+   },{
+      "code": "shooting_environment_street",
+      "label": "街头"
+    },
+    {
+      "code": "shooting_environment_office",
+      "label": "办公室"
+    },
+    {
+      "code": "shooting_environment_cafe",
+      "label": "咖啡馆"
+    },
+    {
+      "code": "shooting_environment_residence",
+      "label": "住宅"
+    },
+    {
+      "code": "shooting_environment_office_building",
+      "label": "办公楼"
+    },
+    {
+      "code": "shooting_environment_school",
+      "label": "学校"
+    },
+    {
+      "code": "shooting_environment_hospital",
+      "label": "医院"
+    },
+    {
+      "code": "shooting_environment_mall",
+      "label": "商场"
+    },
+    {
+      "code": "shooting_environment_stadium",
+      "label": "体育场"
+    },
+    {
+      "code": "shooting_environment_room",
+      "label": "房间"
+    },
+    {
+      "code": "shooting_environment_corridor",
+      "label": "走廊"
+    },
+    {
+      "code": "shooting_environment_staircase",
+      "label": "楼梯"
+    },
+    {
+      "code": "shooting_environment_road",
+      "label": "道路"
+    },
+    {
+      "code": "shooting_environment_bridge",
+      "label": "桥梁"
+    },
+    {
+      "code": "shooting_environment_tunnel",
+      "label": "隧道"
+    },
+    {
+      "code": "shooting_environment_railway",
+      "label": "铁路"
+    },
+    {
+      "code": "shooting_environment_airport",
+      "label": "机场"
+    },
+    {
+      "code": "shooting_environment_port",
+      "label": "港口"
+    },
+    {
+      "code": "shooting_environment_water_electricity_pipelines",
+      "label": "水电网管道"
+    },
+    {
+      "code": "shooting_environment_park",
+      "label": "公园"
+    },
+    {
+      "code": "shooting_environment_square",
+      "label": "广场"
+    },
+    {
+      "code": "shooting_environment_indoor",
+      "label": "室内"
+    }
+  ],
+  "copywriting": [
+    {
+      "code": "copywriting_price_type_low_price",
+      "label": "低价"
+    },
+    {
+      "code": "copywriting_price_type_second_half_price",
+      "label": "第二件半价"
+    },
+    {
+      "code": "copywriting_functional_type_whitening",
+      "label": "美白"
+    },
+    {
+      "code": "copywriting_functional_type_anti_aging",
+      "label": "抗衰"
+    },
+    {
+      "code": "copywriting_functional_type_degrease",
+      "label": "去油"
+    },
+    {
+      "code": "copywriting_experiential_refreshing",
+      "label": "清爽"
+    },
+    {
+      "code": "copywriting_experiential_non_greasy",
+      "label": "不油腻"
+    },
+    {
+      "code": "copywriting_black_tech_type_nanotechnology",
+      "label": "纳米技术"
+    },
+    {
+      "code": "copywriting_black_tech_type_AI_component",
+      "label": "AI成分"
+    },
+    {
+      "code": "copywriting_cost_effective_type_dupe",
+      "label": "平替"
+    },
+    {
+      "code": "copywriting_cost_effective_type_replacing_big_brands",
+      "label": "大牌替代"
+    },
+    {
+      "code": "copywriting_emotional_value_type_confidence",
+      "label": "自信"
+    },
+    {
+      "code": "copywriting_emotional_value_type_sense_of_relaxation",
+      "label": "松弛感"
+    },
+    {
+      "code": "copywriting_social_value_type_face",
+      "label": "面子"
+    },
+    {
+      "code": "copywriting_social_value_type_circle_identity",
+      "label": "圈层认同"
+    },
+    {
+      "code": "copywriting_scarce_type_limited_time_quantity",
+      "label": "限时限量"
+    },
+    {
+      "code": "copywriting_scarce_type_countdown",
+      "label": "倒计时"
+    },
+    {
+      "code": "copywriting_scarce_type_low_stock_alert",
+      "label": "库存告急"
+    },
+    {
+      "code": "copywriting_safe_type_no_additives",
+      "label": "无添加"
+    },
+    {
+      "code": "copywriting_safe_type_suitable_for_sensitive skin",
+      "label": "敏感肌可用"
+    }
+  ],
+
+
+
+  "animation_effect": [
+      {
+          "code": "animation_effect_3d_animation",
+          "label": "3D动画"
+      },{
+          "code": "animation_effect_2d_animation",
+          "label": "2D动画"
+      },{
+          "code": "animation_effect_motion_graphics",
+          "label": "运动特效"
+      },{
+          "code": "animation_effect_exploded_view_product",
+          "label": "产品爆炸图"
+      },{
+          "code": "animation_effect_tech_particle",
+          "label": "科技粒子"
+      },{
+          "code": "animation_effect_transition_effects",
+          "label": "转场特效"
+      },{
+          "code": "animation_effect_none",
+          "label": "无"
+      }
+  ],
+
+  "lighting_condition": [
+    {
+      "code": "lighting_condition_natural_light",
+      "label": "自然光"
+    },{
+      "code": "lighting_condition_soft_light",
+      "label": "柔光"
+    },{
+      "code": "lighting_condition_hard_light",
+      "label": "硬光"
+    },{
+      "code": "lighting_condition_neon_light",
+      "label": "霓虹灯"
+    },{
+      "code": "lighting_condition_white_light",
+      "label": "白光"
+    }, {
+      "code": "lighting_condition_strong_shadow",
+      "label": "强阴影"
+    }, {
+      "code": "lighting_condition_soft_shadow",
+      "label": "柔阴影"
+    },{
+      "code": "lighting_condition_hard_shadow",
+      "label": "硬阴影"
+    },{
+      "code": "lighting_condition_none",
+      "label": "无"
+    }
+  ],
+  "video_type": [
+    {
+      "code": "video_type_character_image_animation",
+      "label": "动画"
+    },
+    {
+      "code": "video_type_character_image_real_person",
+      "label": "真人"
+    },
+    {
+      "code": "video_type_character_image_pure_product",
+      "label": "纯产品"
+    },
+    {
+      "code": "video_type_product_show_display",
+      "label": "商品展示"
+    },
+    {
+      "code": "video_type_product_show_person",
+      "label": "无商品"
+    },
+    {
+      "code": "video_type_speech_form_pure_oral_broadcast",
+      "label": "纯口播"
+    },
+    {
+      "code": "video_type_speech_form_voice_over",
+      "label": "画外音"
+    },
+    {
+      "code": "video_type_speech_form_silent_broadcasting",
+      "label": "无口播"
+    },
+    {
+      "code": "video_type_live_split",
+      "label": "直播切片"
+    }
+  ],
+
+  "video_structure": [
+    {
+        "code": "video_structure_hook",
+        "label": "开场"
+    }, {
+        "code": "video_structure_problem",
+        "label": "痛点"
+    }, {
+        "code": "video_structure_solution",
+        "label": "方案"
+    }, {
+        "code": "video_structure_proof",
+        "label": "证明"
+    }, {
+        "code": "video_structure_CTA",
+        "label": "CTA"
+    }
+  ],
+  "video_structure_hook": [
+    {
+        "code": "video_structure_hook_golden_hook",
+        "label": "黄金钩子"
+    }, {
+        "code": "video_structure_hook_pre_result",
+        "label": "结果前置"
+    }, {
+        "code": "video_structure_hook_emotional_conflict",
+        "label": "情绪冲突"
+    }, {
+        "code": "video_structure_hook_suspense_opening",
+        "label": "悬念开场"
+    }
+  ],
+  "video_structure_problem": [
+    {
+        "code": "video_structure_problem_hook_emotional_resonance",
+        "label": "情绪共鸣"
+    }, {
+        "code": "video_structure_problem_create_anxiety",
+        "label": "制造焦虑"
+    }, {
+        "code": "video_structure_problem_shooting_environment_wake_up",
+        "label": "场景唤醒"
+    }, {
+        "code": "video_structure_problem_user_confusion",
+        "label": "用户困扰"
+    }, {
+        "code": "video_structure_problem_reverse_plot",
+        "label": "反转剧情"
+    }, {
+        "code": "video_structure_problem_identity_substitution",
+        "label": "身份代入"
+    }, {
+        "code": "video_structure_problem_reverse_contrast",
+        "label": "反向对比"
+    }
+  ],
+  "video_structure_proof": [
+    {
+        "code": "video_structure_proof_buyer_proof",
+        "label": "买家证明"
+    }, {
+        "code": "video_structure_proof_expert_endorsement",
+        "label": "专家背书"
+    }, {
+        "code": "video_structure_proof_Hands_on_demonstration",
+        "label": "实操演示"
+    }, {
+        "code": "video_structure_proof_real_effect_photo",
+        "label": "效果实拍"
+    }, {
+        "code": "video_structure_proof_data_proof",
+        "label": "数据证明"
+    }, {
+        "code": "video_structure_proof_contrast",
+        "label": "反差对比"
+    }, {
+        "code": "video_structure_proof_institutional_certification",
+        "label": "机构认证"
+    }
+  ],
+  "video_structure_solution": [
+    {
+        "code": "video_structure_solution_product_launch",
+        "label": "产品出场"
+    }, {
+        "code": "video_structure_solution_concept_introduction",
+        "label": "概念引入"
+    }, {
+        "code": "video_structure_solution_mechanism_decryption",
+        "label": "机制解密"
+    }, {
+        "code": "video_structure_solution_risk_reversal",
+        "label": "风险逆转"
+    }, {
+        "code": "video_structure_solution_concerns_eliminated",
+        "label": "顾虑消除"
+    }, {
+        "code": "video_structure_solution_using_teaching",
+        "label": "使用教学"
+    }, {
+        "code": "video_structure_solution_shooting_environment_adaptation",
+        "label": "场景适配"
+    }
+  ],
+  "video_structure_CTA": [
+    {
+        "code": "video_structure_CTA_action_facilitates",
+        "label": "行动促成"
+    }, {
+        "code": "video_structure_CTA_strong_conversion",
+        "label": "强转化"
+    }, {
+        "code": "video_structure_CTA_big_promotion_forcing_orders",
+        "label": "强制转换"
+    }, {
+        "code": "video_structure_CTA_strong_grass_planting",
+        "label": "强种草"
+    }, {
+        "code": "video_structure_CTA_live_streaming_traffic_acquisition",
+        "label": "直播引流"
+    }, {
+        "code": "video_structure_CTA_brand_exposure",
+        "label": "品牌曝光"
+    }, {
+        "code": "video_structure_CTA_clear_inventory",
+        "label": "清库存"
+    }, {
+        "code": "video_structure_CTA_new_conversion",
+        "label": "拉新转化"
+    }, {
+        "code": "video_structure_CTA_list_recommendation",
+        "label": "清单推荐"
+    }, {
+        "code": "video_structure_CTA_add_followers",
+        "label": "加粉关注"
+    }, {
+        "code": "video_structure_CTA_private_message_consultation",
+        "label": "私信咨询"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "dsh-weather-tools",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./transcribe-tool": "./lib/transcribe-tool.js",
+    "./video-labeler": "./lib/video-labeler.js"
+  },
+  "files": ["lib", "dict_data.json", "cordis.patch.yml"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.5-alpha.1",
+    "@deepseek-ai/schemastery": "^3.18.5-alpha.1",
+    "@deepseek-ai/dsh-tools": "^0.2.1-alpha.1"
+  }
+}
